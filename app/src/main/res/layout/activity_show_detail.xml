@@ -44,7 +44,8 @@
                 android:layout_height="wrap_content"
                 android:text="New Text"
                 android:id="@+id/txtDetail"
-                android:textSize="20dp"/>
+                android:textSize="20dp"
+                android:textColor="@color/abc_search_url_text_pressed" />
         </ScrollView>
     </LinearLayout>
 </RelativeLayout>
