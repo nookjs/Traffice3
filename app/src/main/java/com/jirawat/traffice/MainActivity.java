@@ -40,7 +40,9 @@ public class MainActivity extends AppCompatActivity {
     private void myIntentToDetail(int intClick){
         Intent objIntent = new Intent(MainActivity.this, ShowDetailActivity.class);
         objIntent.putExtra("Click", intClick);
+        String a = "d";
         startActivity(objIntent);
+
     }
     public void clickAboutMe (View view){
         Intent objIntent = new Intent(Intent.ACTION_VIEW);

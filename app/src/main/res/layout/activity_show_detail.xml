@@ -23,7 +23,7 @@
             android:layout_gravity="center_horizontal"
             android:textSize="@dimen/h1"
             android:textColor="#fffdfd"
-            android:background="@color/colorPrimary" />
+            android:background="@color/colorPrimaryDark" />
 
         <ImageView
             android:layout_width="@dimen/image"
@@ -37,7 +37,7 @@
             android:layout_height="@dimen/icon"
             android:id="@+id/scrollView"
             android:layout_gravity="center_horizontal"
-            android:background="#26261e">
+            android:background="#ebeb09">
 
             <TextView
                 android:layout_width="wrap_content"
